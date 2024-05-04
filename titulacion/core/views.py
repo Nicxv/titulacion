@@ -7,4 +7,8 @@ def home(request):
 def pagina(request):
     return render(request, 'pagina.html')
 
+def detalles(request):
+    return render(request, 'detalles.html')
+
+
 
