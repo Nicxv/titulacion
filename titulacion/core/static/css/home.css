@@ -1,15 +1,13 @@
 .img{
     width: 100%;
-   
+    max-width: 400px;
 
-   
     
+}
+.imgSlider{
+    height: 400px;
+    width: 100%;
+
 }
 
 
-
-.detalles{
-    
-  max-width: 40%;
-  max-height: 100%;
-    }
