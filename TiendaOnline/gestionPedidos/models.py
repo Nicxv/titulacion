@@ -26,3 +26,4 @@ class Articulos(models.Model):
         fecha=models.DateField()
         entregado=models.BooleanField
         
+        
