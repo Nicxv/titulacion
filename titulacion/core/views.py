@@ -10,5 +10,8 @@ def pagina(request):
 def detalles(request):
     return render(request, 'detalles.html')
 
+def login(request):
+    return render(request, 'login.html')
+
 
 
