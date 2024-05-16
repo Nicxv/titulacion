@@ -15,3 +15,15 @@ def login(request):
 
 
 
+from django.shortcuts import render
+from . forms import UsuarioForm
+
+def formulario(request):
+    if request.method == 'POST':
+        form = UsuarioForm(request.POST)
+        if form.is_valid():
+            form.save()
+            # hacer algo después de guardar los datos del usuario
+    else:
+        form = UsuarioForm()
+    return render(request, 'formulario.html', {'form': form})
